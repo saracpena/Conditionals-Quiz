@@ -1,5 +1,5 @@
-const username = prompt("What's your name?");
-alert(`Hello, ${username}!`);
+// const username = prompt("What's your name?");
+// alert(`Hello, ${username}!`);
 
 let score = 0;
 function addScore() {
@@ -17,10 +17,10 @@ const selection1 = Number(question1);
 if (Number.isNaN(selection1)) {
   alert("You must enter a number.");
 } else if (selection1 === 3) {
-  alert("That's right, you cool cat! Score: " + addScore());
+  alert("That's right, you cool cat! Score: " + score);
 } else {
   alert("Try again.")
-
+}
 const question2 = prompt(`What dog breed is Sage?
 [1] Toy Australian Shepherd
 [2] German Shepherd
@@ -35,6 +35,7 @@ if (Number.isNaN(selection2)) {
   alert("Hot dog! Sage is proud of your correct answer!");
 } else {
   alert("That was 'ruff'. Please, try again.")
+}
 
 const question3 = prompt(`Who was the first person to land on the moon?
 [1] Louie Armstrong
@@ -49,4 +50,5 @@ if (Number.isNaN(selection3)) {
 } else if (selection3 === 3) {
   alert("Lift off! That's correct!");
 } else {
-  alert("Earth to user, Earth to user. Please, try again.");
+  alert("Earth to user, Earth to user. Please, try again.")
+}
