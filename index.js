@@ -10,20 +10,20 @@ function addFive(userInput) {
 const guess = 10
 const newScore = addFive(guess)
 
-const question1 = prompt(`Please select one of the following options.
-[1] Pretzels ($1.99)
-[2] Chips ($0.99)
-[3] Popcorn ($1.49)
+const question1 = prompt(`Which of the following is a well-known Jazz Musician?
+[1] Lance Armstrong
+[2] Neil Armstrong
+[3] Louie Armstrong
 `);
 
-const question2 = prompt(`Please select one of the following options.
-[1] Pretzels ($1.99)
-[2] Chips ($0.99)
-[3] Popcorn ($1.49)
+const question2 = prompt(`What dog breed is Sage?
+[1] Toy Australian Shepherd
+[2] German Shepherd
+[3] Poodle
 `);
 
-const question3 = prompt(`Please select one of the following options.
-[1] Pretzels ($1.99)
-[2] Chips ($0.99)
-[3] Popcorn ($1.49)
+const question3 = prompt(`Who was the first person to land on the moon?
+[1] Louie Armstrong
+[2] Lance Armstrong
+[3] Neil Armstrong
 `);
