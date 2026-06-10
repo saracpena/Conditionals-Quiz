@@ -33,7 +33,8 @@ const selection2 = Number(question2);
 if (Number.isNaN(selection2)) {
   alert("You must enter a number.");
 } else if (selection2 === 1) {
-  alert("Hot dog! Sage is proud of your correct answer!");
+  addScore();
+  alert(`Hot dog! Sage is proud of your correct answer! Score: ${score}`);
 } else {
   alert("That was 'ruff'. Please, try again.")
 }
@@ -49,7 +50,8 @@ const selection3 = Number(question3);
 if (Number.isNaN(selection3)) {
   alert("You must enter a number.");
 } else if (selection3 === 3) {
-  alert("Lift off! That's correct!");
+  addScore();
+  alert(`Lift off! That's correct! Score: ${score}`);
 } else {
   alert("Earth to user, Earth to user. Please, try again.")
 }
