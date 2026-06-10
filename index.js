@@ -1,6 +1,3 @@
-// const username = prompt("What's your name?");
-// alert(`Hello, ${username}!`);
-
 let score = 0;
 function addScore() {
     score++;
@@ -55,3 +52,13 @@ if (Number.isNaN(selection3)) {
 } else {
   alert("Earth to user, Earth to user. Please, try again.")
 }
+
+if (score === 3) {
+    alert(`Well done! You answered 100%!`)
+} else if (score === 0) {
+    alert("Hm...let's try again")
+} else {
+    alert(`Well, ${score} out of 3 aint bad!`)
+}
+
+alert(`Quiz Complete! Your final score was ${score} out of 3`)
