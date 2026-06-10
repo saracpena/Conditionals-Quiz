@@ -3,7 +3,7 @@
 
 let score = 0;
 function addScore() {
-    return score++
+    score++;
 }
 
 const question1 = prompt(`Which of the following is a well-known Jazz Musician?
@@ -17,7 +17,8 @@ const selection1 = Number(question1);
 if (Number.isNaN(selection1)) {
   alert("You must enter a number.");
 } else if (selection1 === 3) {
-  alert("That's right, you cool cat! Score: " + score);
+  addScore();
+  alert(`That's right, you cool cat! Score: ${score}`);
 } else {
   alert("Try again.")
 }
